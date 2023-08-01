@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+article {
+    margin: 0 50px;
+}
+
+form p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+form p:nth-last-child(2) {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    width: 500px;
+    height: 20px;
+}
+
+input[type="email"]{
+    width: 300px;
+    height: 20px;
+}
+
+select {
+    height: 30px;
+}
+
+textarea{
+    overflow: scroll;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    background-color: powderblue;
+}
